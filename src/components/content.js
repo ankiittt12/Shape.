@@ -5,12 +5,17 @@ function Content() {
   return (
     <div>
       <div>
-        <video
-          src={video}
-          autoPlay
-          loop
-          muted
-        ></video>
+       <video
+  src={video}
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{
+  
+    objectFit: "cover"
+  }}
+/>
       </div>
 
       <div className="content2">
